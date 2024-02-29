@@ -22,9 +22,9 @@ const InnerWrapper = styled(Box)(({
     maxWidth: 1200,
     margin: "auto"
   }
-})); // --------------------------------------------
+})); 
 
-// --------------------------------------------
+
 const LayoutBodyWrapper = ({
   children,
   sx

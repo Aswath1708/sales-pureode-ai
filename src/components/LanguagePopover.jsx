@@ -1,7 +1,7 @@
 import { Box, IconButton, MenuItem, Popover, styled } from "@mui/material";
 import { H6 } from "./Typography";
 import { useRef, useState } from "react";
-import { useTranslation } from "react-i18next"; // dummy language options
+import { useTranslation } from "react-i18next";
 
 const languageOptions = {
   en: {
@@ -11,12 +11,8 @@ const languageOptions = {
   es: {
     icon: "/static/flags/spain.png",
     label: "Spanish"
-  } //   hi: {
-  //     icon: '/static/flags/in.png',
-  //     label: 'Hindi',
-  //   },
-
-}; // custom styled components
+  }
+}; 
 
 const StyledIconButton = styled(IconButton)(({
   theme
@@ -77,12 +73,6 @@ const LanguagePopover = () => {
     }}>
         {Object.keys(languageOptions).map(language => <MenuItem key={languageOptions[language].label} onClick={() => handleChangeLanguage(language)}>
             <ItemWrapper>
-              {
-            /* <img
-             alt={languageOptions[language].label}
-             src={languageOptions[language].icon}
-            /> */
-          }
               <H6 fontWeight={600} ml={1}>
                 {languageOptions[language].label}
               </H6>

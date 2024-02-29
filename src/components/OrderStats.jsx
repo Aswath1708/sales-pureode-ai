@@ -5,7 +5,6 @@ import FlexBox from "./FlexBox";
 import { H3, H5, Tiny } from "./Typography";
 import CaretUpIcon from "./CaretUpIcon";
 import Chart from "react-apexcharts";
-// import { NavLink } from "react-router-dom"; // --------------------------------------------------------------------------
 
 const chartSeries = [
   {

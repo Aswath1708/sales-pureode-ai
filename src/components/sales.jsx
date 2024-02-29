@@ -52,18 +52,6 @@ const Sales = () => {
           </Grid>
         </Grid>
 
-        {
-        /* <Grid item md={6} xs={12}>
-         <SalesCard list={salesList} />
-        </Grid> */
-      }
-
-        {
-        /* <Grid item md={8} xs={12}>
-         <RevenueStatistics />
-        </Grid> */
-      }
-
         <Grid item md={4} xs={12}>
           <Grid container spacing={3}>
             <Grid item md={12}>
@@ -77,18 +65,6 @@ const Sales = () => {
             </Grid>
           </Grid>
         </Grid>
-
-        {
-        /* <Grid item md={8} xs={12}>
-         <PopularProducts />
-        </Grid> */
-      }
-
-        {
-        /* <Grid item md={4} xs={12}>
-         <OrderStats />
-        </Grid> */
-      }
       </Grid>
     </Box>;
 };

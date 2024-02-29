@@ -75,11 +75,9 @@ const iconStyle = (active) => ({
   fontSize: 18,
   marginRight: "4px",
   color: active ? "primary.main" : "text.secondary",
-}); 
-
+});
 
 const MultiLevelMenu = ({ sidebarCompact }) => {
-
   const activeRoute = (path) => (window.location.href === path ? 1 : 0); // handle navigate to another route or page
 
   const COMPACT = sidebarCompact ? 1 : 0; //   RECURSIVE FUNCTION TO RENDER MULTI LEVEL MENU
