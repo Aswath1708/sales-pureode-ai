@@ -26,7 +26,7 @@ const EarningCard = () => {
         </Box>
 
         <Box height={120}>
-          <img src="/static/illustration/sales-earning.svg" width="100%" alt="Earnings" style={{
+          <img src="/src/assets/sales-earning.svg" width="100%" alt="Earnings" style={{
           objectFit: "cover",
           objectPosition: "bottom"
         }} />

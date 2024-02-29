@@ -14,7 +14,7 @@ const messages = [{
   type: "new_message",
   name: "Brain Warner",
   message: "Changed an issue from in this project",
-  image: "/static/avatar/001-man.svg"
+  image: "/src/assets/001-man.svg"
 }, {
   id: "5e8883f7ed1486d665d8be1e",
   createdAt: Date.now(),
@@ -23,7 +23,7 @@ const messages = [{
   type: "new_message",
   name: "Kiara Hamptoon",
   message: "Nice Work! You really nailed it. Keep it Up Man",
-  image: "/static/avatar/002-girl.svg"
+  image: "/src/assets/002-girl.svg"
 }, {
   id: "5e8883fca0e8612044248ecf",
   createdAt: Date.now(),
@@ -32,7 +32,7 @@ const messages = [{
   type: "item_shipped",
   name: "Ruby Walton",
   message: "Nice Work! You really nailed it. Keep it Up Man",
-  image: "/static/avatar/004-woman.svg"
+  image: "/src/assets/004-woman.svg"
 }];
 const archives = [{
   id: "5e8883f1b51cc1956a5a1ec0",
@@ -41,7 +41,7 @@ const archives = [{
   type: "",
   name: "Brain Warner",
   message: "Changed an issue from in this project",
-  image: "/static/avatar/001-man.svg"
+  image: "/src/assets/001-man.svg"
 }, {
   id: "5e8883f7ed1486d665d8be1e",
   createdAt: Date.now(),
@@ -50,7 +50,7 @@ const archives = [{
   type: "",
   name: "Kiara Hamptoon",
   message: "Nice Work! You really nailed it. Keep it Up Man",
-  image: "/static/avatar/002-girl.svg"
+  image: "/src/assets/002-girl.svg"
 }, {
   id: "5e8883fca0e8612044248ecf",
   createdAt: Date.now(),
@@ -59,7 +59,7 @@ const archives = [{
   type: "item_shipped",
   name: "Ruby Walton",
   message: "Nice Work! You really nailed it. Keep it Up Man",
-  image: "/static/avatar/004-woman.svg"
+  image: "/src/assets/004-woman.svg"
 }]; // styled components
 
 const StyledIconButton = styled(IconButton)(({

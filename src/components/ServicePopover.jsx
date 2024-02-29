@@ -9,17 +9,17 @@ const services = [{
   id: "5e8883f1b51cc1956a5a1ec0",
   title: "Slack",
   body: "Email collaboration software",
-  image: "/static/connect-accounts/slack.svg"
+  image: "/src/assets/008-twitter.svg"
 }, {
   id: "5e8883f7ed1486d665d8be1e",
   title: "Github",
   body: "Email collaboration software",
-  image: "/static/connect-accounts/github.svg"
+  image: "/src/assets/029-instagram.svg"
 }, {
   id: "5e8883fca0e8612044248ecf",
   title: "Stack Overflow",
   body: "Email collaboration software",
-  image: "/static/connect-accounts/stack-overflow.svg"
+  image: "/src/assets/027-linkedin.svg"
 }];
 const StyledIconButton = styled(IconButton)(({
   theme

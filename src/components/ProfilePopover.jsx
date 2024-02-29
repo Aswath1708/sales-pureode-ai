@@ -74,7 +74,7 @@ const ProfilePopover = () => {
             </Small>
           )}
           <AppAvatar
-            src="/static/avatar/001-man.svg"
+            src="/src/assets/001-man.svg"
             sx={{
               width: 28,
               height: 28,

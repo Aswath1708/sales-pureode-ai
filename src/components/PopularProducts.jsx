@@ -95,7 +95,7 @@ const PopularProducts = () => {
 
 const productList = [{
   name: "Nike Air max 170",
-  image: "/static/products/shoe-1.png",
+  image: "/src/assets/shoe-1.png",
   date: new Date(),
   price: 654,
   category: "Shoes",
@@ -103,7 +103,7 @@ const productList = [{
   brand: "Nike"
 }, {
   name: "Cactus Plant",
-  image: "/static/products/bonsai.png",
+  image: "/src/assets/bonsai.png",
   date: new Date(),
   price: 654,
   category: "Tree",
@@ -111,7 +111,7 @@ const productList = [{
   brand: "Bonsai"
 }, {
   name: "Minimal Pot",
-  image: "/static/products/airbud.png",
+  image: "/src/assets/airbud.png",
   date: new Date(),
   price: 654,
   category: "Accessories",
@@ -119,7 +119,7 @@ const productList = [{
   brand: "Ikea"
 }, {
   name: "Adidas Blaze",
-  image: "/static/products/shoe-2.png",
+  image: "/src/assets/shoe-2.png",
   date: new Date(),
   price: 654,
   category: "Shoes",

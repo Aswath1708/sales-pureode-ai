@@ -113,14 +113,14 @@ const LayoutSetting = () => {
 const demoLayouts = [{
   name: "layout1",
   title: "Layout V1",
-  imgUrl: "/static/layouts/layout-v1.png"
+  imgUrl: "/src/assets/layout-v1.png"
 }, {
   name: "layout2",
   title: "Layout V2",
-  imgUrl: "/static/layouts/layout-v2.png"
+  imgUrl: "/src/assets/layout-v2.png"
 }, {
   name: "layout3",
   title: "Layout V3",
-  imgUrl: "/static/layouts/layout-v3.png"
+  imgUrl: "/src/assets/layout-v3.png"
 }];
 export default LayoutSetting;
